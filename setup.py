@@ -17,8 +17,9 @@ setup(
     name='colorizedlog',
     version=version,
     description=description,
-    long_description=long_description,
+    long_description=description,
     author='Dominik Steinberger',
+    author_email='zeed.dev@icloud.com',
     url='https://github.com/ZeeD26/colorizedlog',
     py_modules=[
         'colorizedlog'
