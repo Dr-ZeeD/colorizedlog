@@ -12,11 +12,11 @@ with open(os.path.join(root_dir, 'colorizedlog.py'), 'r') as f:
     version = str(ast.literal_eval(_version_re.search(f.read()).group(1)))
 
 setup(
-	name='colorizedlog',
-	version=version,
-	author='Dominik Steinberger',
-	url='https://github.com/ZeeD26/colorizedlog',
-	py_modules=[
-		'colorizedlog'
-	],
-	license='BSD')
+    name='colorizedlog',
+    version=version,
+    author='Dominik Steinberger',
+    url='https://github.com/ZeeD26/colorizedlog',
+    py_modules=[
+        'colorizedlog'
+    ],
+    license='BSD')
